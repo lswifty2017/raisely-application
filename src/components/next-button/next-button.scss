@@ -1,0 +1,21 @@
+.next-button {
+  animation: MoveUpDown 2s linear infinite;
+  position: absolute;
+  left: 10%;
+  cursor: pointer;
+  transition-duration: 0.4s;
+
+  &:hover {
+    opacity: 0.3;
+  }
+}
+
+@keyframes MoveUpDown {
+  0%,
+  100% {
+    bottom: 100px;
+  }
+  50% {
+    bottom: 90px;
+  }
+}

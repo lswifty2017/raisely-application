@@ -1,0 +1,22 @@
+.links-sidebar {
+  height: 100%;
+  width: 50px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 10px 0 10px 0;
+  position: fixed;
+  z-index: 99;
+  right: 0;
+  top: 0;
+}
+
+.links-sidebar__link {
+  transition-duration: 0.4s;
+  padding: 5px;
+
+  &:hover {
+    opacity: 0.3;
+  }
+}

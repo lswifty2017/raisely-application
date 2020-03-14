@@ -5,6 +5,7 @@
   padding: 10px 0 10px 0;
   position: -webkit-sticky;
   position: sticky;
+  z-index: 99;
   top: 0;
 
   a {
@@ -18,4 +19,5 @@
   font-weight: 900;
   letter-spacing: 3px;
   text-transform: uppercase;
+  cursor: pointer;
 }

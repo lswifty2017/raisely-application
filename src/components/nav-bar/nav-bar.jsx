@@ -1,15 +1,17 @@
 import React from 'react';
 import './nav-bar.scss';
-import { BrowserRouter as Router, Link } from 'react-router-dom';
+import { Link, animateScroll as scroll } from 'react-scroll';
+
+const scrollToTop = () => {
+  scroll.scrollToTop();
+};
 
 const NavBar = () => {
   return (
     <nav className="nav-bar">
-      <Router>
-        <Link className="nav-bar__logo" to="/">
-          Liam Swift
-        </Link>
-      </Router>
+      <Link className="nav-bar__logo" onClick={scrollToTop}>
+        Liam Swift
+      </Link>
     </nav>
   );
 };
