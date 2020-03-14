@@ -5,12 +5,14 @@ import App from './App';
 import NavBar from './components/nav-bar/nav-bar';
 import LinksSideBar from './components/links-sidebar/links-sidebar';
 import * as serviceWorker from './serviceWorker';
+import Footer from './components/footer/footer';
 
 ReactDOM.render(
   <React.Fragment>
     <NavBar />
     <LinksSideBar />
     <App />
+    <Footer />
   </React.Fragment>,
   document.getElementById('root')
 );

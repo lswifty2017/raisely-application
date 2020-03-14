@@ -12,6 +12,7 @@ const NavBar = () => {
       <Link className="nav-bar__logo" onClick={scrollToTop}>
         Liam Swift
       </Link>
+      <div className="nav-bar__item">Raisely Application</div>
     </nav>
   );
 };

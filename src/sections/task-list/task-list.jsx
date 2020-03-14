@@ -36,7 +36,7 @@ const TaskList = ({ sectionID }) => {
         <Card {...learn} />
         <Card {...lessKeen} />
       </div>
-      <NextButton sectionID="platform" />
+      <NextButton linkId="platform" />
     </div>
   );
 };

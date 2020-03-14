@@ -1,7 +1,7 @@
 .nav-bar {
   background-color: white;
   display: flex;
-  justify-content: 'space-between';
+  justify-content: space-between;
   padding: 15px 0 15px 0;
   position: -webkit-sticky;
   position: sticky;
@@ -20,4 +20,12 @@
   letter-spacing: 3px;
   text-transform: uppercase;
   cursor: pointer;
+}
+
+.nav-bar__item {
+  color: black;
+  font-size: 15px;
+  font-weight: 900;
+  letter-spacing: 3px;
+  text-transform: uppercase;
 }

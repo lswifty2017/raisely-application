@@ -16,6 +16,7 @@
     white
   );
   display: flex;
+  flex-direction: column;
   justify-content: center;
   align-items: center;
   height: 100vh;
@@ -26,4 +27,9 @@
     animation-name: example;
     animation-duration: 2s;
   }
+}
+
+.home-banner__next-section {
+  padding-top: 140px;
+  position: relative;
 }

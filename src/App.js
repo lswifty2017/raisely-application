@@ -5,6 +5,7 @@ import Section from './components/section/section';
 import AboutMe from './sections/about-me/about-me';
 import RoleSuitability from './sections/role-suitability/role-suitability';
 import TaskList from './sections/task-list/task-list';
+import Platform from './sections/platform/platform';
 
 const App = () => {
   return (
@@ -13,7 +14,7 @@ const App = () => {
       <AboutMe sectionID="about-me" />
       <RoleSuitability sectionID="role-suitability" />
       <TaskList sectionID="task-list" />
-      <Section></Section>
+      <Platform sectionID="platform" />
     </div>
   );
 };

@@ -17,7 +17,9 @@ const HomeBanner = ({ heading }) => {
           <span style={{ color: '#ff5851' }}>.</span>
         </h1>
       )}
-      <NextButton linkId="about-me" />
+      <div className="home-banner__next-section">
+        <NextButton linkId="about-me" />
+      </div>
     </div>
   );
 };

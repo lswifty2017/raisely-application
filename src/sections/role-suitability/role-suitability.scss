@@ -1,9 +1,13 @@
 .role-suitability {
-  padding: 20px;
+  padding: 30px;
   background-color: #f8f8f8;
   position: relative;
   display: flex;
   flex-direction: column;
+
+  h2 {
+    padding-top: 10px;
+  }
 }
 
 .role-suitability__content {

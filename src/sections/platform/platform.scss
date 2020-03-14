@@ -1,16 +1,21 @@
-.about-me {
-  height: 100vh;
-  background-color: #ff5851;
-  position: relative;
+img {
+  width: 200px;
+  height: 200px;
 }
 
-.about-me__wrapper {
+.platform {
+  padding: 20px;
+  background-color: #f8f8f8;
+  position: relative;
+  text-align: center;
+}
+
+.platform__wrapper {
   display: flex;
-  height: 100%;
   padding: 20px;
 }
 
-.about-me__content {
+.platform__content {
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -18,19 +23,19 @@
   padding: 0 10px 0 10px;
   text-align: center;
   width: 50%;
+
+  p {
+    font-size: 20px;
+    padding-bottom: 30px;
+    text-align: left;
+  }
 }
 
-.about-me__photo {
+.platform__image {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   padding: 20px;
   width: 50%;
-
-  img {
-    width: 350px;
-    height: 400px;
-    border-radius: 50%;
-  }
 }
