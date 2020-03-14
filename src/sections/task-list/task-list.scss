@@ -1,0 +1,14 @@
+.task-list {
+  background-color: white;
+  position: relative;
+  text-align: center;
+
+  h2 {
+    padding-top: 20px;
+  }
+}
+
+.task-list__wrapper {
+  display: flex;
+  padding: 30px;
+}

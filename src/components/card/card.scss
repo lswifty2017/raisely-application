@@ -1,0 +1,36 @@
+.card {
+  margin: 15px;
+  box-shadow: 10px 10px grey;
+  background-color: #ff5851;
+  color: white;
+}
+
+.card__wrapper {
+  padding: 10px;
+}
+
+.card__title {
+  text-align: center;
+  font-size: 30px;
+  margin-bottom: 40px;
+  position: relative;
+
+  &:after {
+    position: absolute;
+    content: '';
+    width: 20%;
+    height: 2px;
+    background-color: black;
+    bottom: -10px;
+    left: 40%;
+  }
+}
+
+.card__content {
+  li {
+    list-style: none;
+    text-align: left;
+    padding-bottom: 30px;
+    font-size: 20px;
+  }
+}
