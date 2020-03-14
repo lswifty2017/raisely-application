@@ -1,0 +1,21 @@
+.role-suitability {
+  padding: 20px;
+  height: 100vh;
+  background-color: #f8f8f8;
+  position: relative;
+  display: flex;
+  flex-direction: column;
+}
+
+.role-suitability__content {
+  padding: 0 160px 0 160px;
+
+  ul {
+    padding-left: 20px;
+  }
+
+  li {
+    padding-bottom: 25px;
+    font-size: 18px;
+  }
+}

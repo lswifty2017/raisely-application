@@ -1,6 +1,7 @@
 import React from 'react';
 import NextButton from '../next-button/next-button';
 import './home-banner.scss';
+import { animateScroll as scroll } from 'react-scroll';
 
 const HomeBanner = ({ heading }) => {
   return (
@@ -16,7 +17,7 @@ const HomeBanner = ({ heading }) => {
           <span style={{ color: '#ff5851' }}>.</span>
         </h1>
       )}
-      <NextButton linkId={'intro'} />
+      <NextButton linkId="about-me" />
     </div>
   );
 };

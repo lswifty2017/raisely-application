@@ -2,18 +2,15 @@ import React from 'react';
 import './App.scss';
 import HomeBanner from './components/home-banner/home-banner';
 import Section from './components/section/section';
-import { Link, animateScroll as scroll } from 'react-scroll';
-import NextButton from './components/next-button/next-button';
+import AboutMe from './sections/about-me/about-me';
+import RoleSuitability from './sections/role-suitability/role-suitability';
 
 const App = () => {
   return (
     <div className="App">
-      <HomeBanner heading="Hello"></HomeBanner>
-      <Section sectionID="intro">
-        <h3 id="section2">Test</h3>
-        <NextButton />
-      </Section>
-      <Section></Section>
+      <HomeBanner heading="Hello" />
+      <AboutMe sectionID="about-me" />
+      <RoleSuitability sectionID="role-suitability" />
       <Section></Section>
       <Section></Section>
     </div>

@@ -1,3 +1,12 @@
+@keyframes example {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+
 .home-banner {
   background: -webkit-linear-gradient(
     left,
@@ -11,4 +20,10 @@
   align-items: center;
   height: 100vh;
   position: relative;
+
+  h1 {
+    animation-timing-function: ease-in;
+    animation-name: example;
+    animation-duration: 2s;
+  }
 }
