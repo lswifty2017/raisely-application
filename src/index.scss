@@ -1,7 +1,20 @@
+@import 'variables.scss';
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
 body {
   margin: 0;
   font-family: 'Montserrat', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   color: black;
+  text-align: center;
+  padding: 0 50px 0 50px;
+}
+
+h1 {
+  font-size: 120px;
 }

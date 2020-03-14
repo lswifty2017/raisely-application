@@ -1,0 +1,16 @@
+.home-banner {
+  background: -webkit-linear-gradient(
+    left,
+    #ff5851,
+    #ff5851 50%,
+    white 50%,
+    white
+  );
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  h1 {
+    padding-top: 90px;
+  }
+}
