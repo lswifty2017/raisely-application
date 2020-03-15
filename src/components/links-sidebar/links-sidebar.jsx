@@ -9,6 +9,7 @@ const LinksSideBar = () => {
       <a
         href="https://www.linkedin.com/in/liam-swift/"
         target="_blank"
+        rel="noopener noreferrer"
         className="links-sidebar__link"
       >
         <IconLinkedIn />
@@ -16,6 +17,7 @@ const LinksSideBar = () => {
       <a
         href="https://github.com/lswifty2017"
         target="_blank"
+        rel="noopener noreferrer"
         className="links-sidebar__link"
       >
         <IconGithub />

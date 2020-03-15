@@ -1,7 +1,7 @@
 import React from 'react';
 import './card.scss';
 
-const Card = ({ color, title, content }) => {
+const Card = ({ title, content }) => {
   return (
     <div className="card">
       <div className="card__wrapper">

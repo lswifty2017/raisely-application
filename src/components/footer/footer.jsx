@@ -15,6 +15,7 @@ const Footer = () => {
         <img
           src="https://img.icons8.com/small/16/000000/long-arrow-up.png"
           style={{ width: '15px', height: '15px' }}
+          alt="up-arrow"
         />
       </Link>
     </div>

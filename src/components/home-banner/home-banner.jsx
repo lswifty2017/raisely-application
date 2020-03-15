@@ -1,7 +1,6 @@
 import React from 'react';
 import NextButton from '../next-button/next-button';
 import './home-banner.scss';
-import { animateScroll as scroll } from 'react-scroll';
 
 const HomeBanner = ({ heading }) => {
   return (
